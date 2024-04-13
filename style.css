@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit';
+    background-color: hsl(30, 54%, 90%);
+}
+ 
+img {
+    max-width: 100%;
+}
+
+p,li {
+    line-height: 1.5rem;
+    color: hsl(30, 10%, 34%);
+}
+h1, h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'YoungSerif';
+}
+
+ul, ol{
+    padding-left: 25px;
+}
+
+li {
+    margin-top: 0.5rem;
+}
+
+.container {
+    max-width: 700px;
+    margin-inline: auto ;
+    background-color: white;
+}
+
+.container div:not(first-child){
+    padding: 1.5rem;
+}
+
+.recipe article {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.recipe h1{
+    margin-bottom: 1rem;
+
+}
+
+.recipe article h3{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 0.5rem;
+}
+
+
+
+.instructions {
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+
+.nutrition p{
+    margin-top: 1rem;
+}
+
+.nutrition ul li{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.5rem 0;
+}
+
+.nutrition ul li:last-child {
+    border-bottom: none;
+}
+
+@media (min-width : 768px) {
+    .container {
+        margin: 5rem auto 0;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+    img {
+        border-radius: 1rem;
+    }
+    
+}
